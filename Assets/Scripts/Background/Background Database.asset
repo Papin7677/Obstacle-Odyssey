@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944eb955d7b946a409ed113c22de14ac, type: 3}
+  m_Name: Background Database
+  m_EditorClassIdentifier: 
+  background:
+  - backgroundImage: {fileID: 8587928044306979310, guid: ede8537553181fa4dbf6113f413c559d, type: 3}
+    obstacle: {fileID: 7513856702432851235, guid: 4dcefd6751b2e5f40b5430170213bee2, type: 3}
+    ground: {fileID: 3378738696400726753, guid: 6bfd1eaa8a5acbc45a5840908cbd951b, type: 3}
+    menuGround: {fileID: 6159637379083507294, guid: 160d91bff678cff45b7e0f8a35ddd89c, type: 3}
+    yOffset: 1.5
+    unlocked: 0
+    cost: 0
+  - backgroundImage: {fileID: 8991349878095991911, guid: 2face9ddd38e2af418ec2cf61d8c7975, type: 3}
+    obstacle: {fileID: 8451414427769172335, guid: 6e9bf03fd508dc542afceebf605490f2, type: 3}
+    ground: {fileID: 7483202443381861309, guid: 7263bc6b9cd3e264bae3a78d93e071ad, type: 3}
+    menuGround: {fileID: 5563402052880320323, guid: 1d4104b14c7e8b94f9f4bf005d024b09, type: 3}
+    yOffset: 0.7
+    unlocked: 0
+    cost: 100
+  - backgroundImage: {fileID: 9152761322606364270, guid: 2b2cfe05df1129c439d7ad8b62443b13, type: 3}
+    obstacle: {fileID: 7291520537885759194, guid: 4ab346918ccfe7b4bb31a2a8b378821c, type: 3}
+    ground: {fileID: 4030350932683618140, guid: 009ff9bf75f8d2e4a8cd99660be61927, type: 3}
+    menuGround: {fileID: 7820941520516724318, guid: d77dbc238befe1f4b8bb26898d417a34, type: 3}
+    yOffset: 0.13
+    unlocked: 1
+    cost: 200

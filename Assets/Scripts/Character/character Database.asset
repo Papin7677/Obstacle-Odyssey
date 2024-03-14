@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7ffadc830b51e48bd88c091d1e6c45, type: 3}
+  m_Name: character Database
+  m_EditorClassIdentifier: 
+  character:
+  - character: {fileID: 8216562905226828797, guid: 0ddeb0ba36341304eb6703f25e1877be, type: 3}
+    playableCharacter: {fileID: 8216562905226828797, guid: 7a94206f96f4ed446b035995dccb0fcc, type: 3}
+    cost: 0
+  - character: {fileID: 4103165988081149982, guid: f8850732f815683489a8e4a31111b9fa, type: 3}
+    playableCharacter: {fileID: 4103165988081149982, guid: 2776d05c0e303ca4eb411650b7ddd05a, type: 3}
+    cost: 100
+  - character: {fileID: 6493616243278274008, guid: 966083b95a38ba5439bdd0b6d6fc00d3, type: 3}
+    playableCharacter: {fileID: 6493616243278274008, guid: 1525dbcfd00f7da48bfcfd8e403c8c88, type: 3}
+    cost: 150
+  - character: {fileID: 2543530637227182127, guid: 85e856ab6e5b44749af17799f5d0f2ab, type: 3}
+    playableCharacter: {fileID: 2543530637227182127, guid: bcc363a72ac64b142ac27b7c40f77979, type: 3}
+    cost: 200
